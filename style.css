@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    HEADER
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(101, 101, 221);
+}
+
+nav {
+    text-align: right;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+.a-nav {
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.a-nav:hover {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    FIM HEADER
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    SLIDESHOW
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+#carrossel-cilindrokkkk {
+    margin: 0;
+    padding: 0;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(101, 101, 221) 10%, rgb(255, 255, 255) 99.9%);
+}
+
+#titulo-carrossel-do-cilinfrokkkk {
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider {
+    width: 55%;
+    height: 80%;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.navigation-bar {
+    position: absolute;
+    bottom: 20px;
+
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input {
+    display: none;
+}
+
+.manual-btn {
+    border: 2px solid black;
+
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: transparent;
+    transition: .5s;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+}
+
+.slide {
+    width: 25%;
+    transition: 1.5s;
+}
+
+.slide img {
+    width: 99%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+#radio1:checked ~ .first { /**Pelo q entedi se rad estiver check var ocorrer mudança no first*/
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+.navigation-auto {
+    position: absolute;
+    bottom: 20px;
+
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navigation-auto div {
+    transition-duration: 1s;
+    border: 2px solid black;
+
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: rgb(101, 101, 221);
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: rgb(101, 101, 221);
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: rgb(101, 101, 221);
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: rgb(101, 101, 221);
+}
+
+h4 {
+    text-align: center;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    FIM SLIDESHOW
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    PIX
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+.pix {
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+button {
+    width: 200px;
+    height: 50px;
+    margin: 30px auto 10px auto;
+    border-radius: 20px;
+    background-color: rgb(101, 101, 221);
+    color: #fff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    FIM PIX
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
