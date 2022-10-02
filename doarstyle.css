@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    HEADER
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(101, 101, 221);
+}
+
+nav {
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li:not(:first-child) {
+    margin-left: 25px;
+}
+
+.a-nav {
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.a-nav:hover {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+    FIM HEADER
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+*/
+
+#slogan {
+    height: 200px;
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    background-image: linear-gradient(180deg, rgb(101,101,221), rgb(255, 255, 255));
+}
+
+#form {
+    text-align: center;
+}
+
+#campaign {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 45px 0px 20px;
+    color: black;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+}
+
+main {
+    margin: auto;
+}
+
+#doar {
+    margin-top: 150px;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+}
+
+.block-doar {
+    margin: auto;
+    width: 200px;
+    height: 149px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(101, 101, 221);
+    cursor: pointer;
+}
+
+.text-doar {
+    color: white;
+    margin: 20px 0px 20px 0px;
+}
+
+.preco {
+    color: white;
+    margin: auto;
+    align-items: center;
+}
+
+#qm {
+    margin-top: 80px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    color: white;
+    background-color: rgb(101, 101, 221);
+}
+
+#footer {
+    display: flex;
+}
+
+.b-footer {
+    margin-left: 20px;
+}
