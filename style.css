@@ -220,8 +220,29 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
 }
+
+#a-btn {
+    color: white;
+    text-decoration: none;
+}
+
 /*
 >>>>>>>>>>>>>>>>>>>>>>>>>>
     FIM PIX
 >>>>>>>>>>>>>>>>>>>>>>>>>>
 */
+
+footer {
+    display: flex;
+    height: 100px;
+    color: white;
+    background-color: rgb(101, 101, 221);
+}
+
+#footer {
+    display: flex;
+}
+
+.b-footer {
+    margin-left: 20px;
+}
